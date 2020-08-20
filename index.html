@@ -1,9 +1,9 @@
 <div class="app" >
-    <div id="prev">Berezovsky Alexandr</div>
-    <div id="prev">Junior JavaScript Developer</div>
-    <div id="body">
-      <div id="ask">Обо мне:</div>
-      <div id="about">Студент 2го курса факультета информационных технолонгий политехнического университета. 
+    <div class="prev">Berezovsky Alexandr</div>
+    <div class="prev">Junior JavaScript Developer</div>
+    <div class="body">
+      <div class="ask">Обо мне:</div>
+      <div class="about">Студент 2го курса факультета информационных технолонгий политехнического университета. 
         <br>Изучал такие языки программирования, как: C , C++ , Assembler <br>Также графические программы: AutoCAD, Maya.
         <br>Недавно начал изучать JavaScript, html и css.
       </div><br>
@@ -32,11 +32,11 @@
           </tr>
       </table>
       <br><br><br>
-      <div id="about">
+      <div class="about">
       Решил идти в данном направлении, так как, концепция JavaScript показалась наиболее интересной 
       и гибкой по сравнению с раннее упомянутыми языками программирования. 
     </div>
-    <table id="tab"><tr><td width="250px">Mail</td><td>Discord</td></tr>
+    <table class="tab"><tr><td width="250px">Mail</td><td>Discord</td></tr>
       <tr><td width="250px">alex14_04@mail.ru</td><td>51142#8453</td></tr>  
     </table>
   </div>
@@ -44,38 +44,42 @@
 
 <style>
 
-
-  #prev {
+  .app {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .prev {
     margin-top: 20px;
     text-align: center;
     font-size: 200%;
   }
 
-  #ask {
+  .ask {
     font-size: 150%;
   }
 
-  #body {
+  .body {
     margin-top:5%;
-    margin-left: 35%;
   }
 
-  #about {
+  .about {
     margin-top:10px;
-    margin-left: 20px;
     font-size: 110%;
     width: 600px;
   }
 
   .tag {
-    margin-left: 5%;
     margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 130%;
   }
 
-  #tab {
-    margin-left: 100px;
+  .tab {
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     color: rgb(146, 138, 138);
   }
 
